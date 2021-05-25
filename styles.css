@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(to right top, #030043, #691c48, #9c5a51, #b99d79, #d5dec1);
+    min-height: 100vh;
+}
+
+h1{
+    margin-top: 25px;
+    text-align: center;
+}
+
+h4{
+    margin: 25px;
+    text-align: center;
+    font-size: 40px;
+}
+
+span{
+    text-transform: uppercase;
+    color: rgb(78, 78, 163);
+}
+
+textarea{
+    margin: 25px;
+    width: 700px;
+    height: 100px;
+}
+
+li{
+    margin-bottom: 15px;
+}
+
+.otro{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.write{
+    height: 750px;
+    width: 750px;
+    background-color: darksalmon;
+    box-shadow: 10px 10px 30px black;
+}
+
+.see{
+    height: 750px;
+    width: 750px;
+    background-color: dimgray;
+    box-shadow: 10px 10px 30px black;
+}
+
+#btnSubmit{
+    background-color: rgb(194, 199, 204);
+    margin-left: 175px;
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    cursor: pointer;
+}
+
+.error{
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 50px;
+}
+
+.borrarMensaje{
+    float: right;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
+
+.lista-msj{
+    background-color: rgb(246, 223, 223);
+    margin-left: 20px;
+    margin-right: 30px;
+    padding: 20px;
+    border-radius: 10px;
+}
